@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -168,6 +169,178 @@ input:checked {
 }
 
 #already_account {
+margin: 30 auto 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 15px;
+    background-image: url(https://colorlib.com/etc/lf/Login_v9/images/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
+}
+
+.create_account {
+
+    background: #fff;
+    width: 400px;
+    height: 700px;
+    border-radius: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name,
+#email,
+#password {
+    height: 32px;
+    width: 180px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid grey;
+    font-size: 14px;
+    transition: all 0.5s linear;
+}
+
+.icon,
+.radio {
+    margin: 30px auto 0 auto;
+}
+
+#name:focus,
+#email:focus,
+#password:focus {
+    font-size: 18px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+label {
+    line-height: 32px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+.check-box-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.custom-checkbox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox .label {
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.custom-checkbox .checkmark {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #222;
+    display: inline-block;
+    border-radius: 3px;
+    background: #222 url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1200px-White_check.svg.png) center/1250% no-repeat;
+    transition: background-size 0.2s ease;
+}
+
+.custom-checkbox input:checked+.checkmark {
+    background-size: 60%;
+
+}
+
+.terms {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign_up {
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 150px;
+    height: 40px;
+    margin: 30px auto 0 auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: grey;
+    transition: all 1s;
+}
+
+.sign_up:hover {
+    color: #f7b9ff;
+    background: #78003d;
+}
+
+#already_account {
     margin: 45px auto 0 auto;
 
+>>>>>>> de23a3d0f46c7225602c598cdcd278b2c7729192
 }
