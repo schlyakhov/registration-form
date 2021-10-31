@@ -78,7 +78,9 @@ h1 {
     width: 250px;
     border: 2px solid black;
 }
-
+#contactChoice1 { 
+    margin-right: 15px;
+}
 label {
     line-height: 32px;
 }
